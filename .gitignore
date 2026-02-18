@@ -1,0 +1,19 @@
+# Raw dataset
+data/
+__MACOSX/
+
+# Generated outputs
+*.jsonl.gz
+*.json
+validation_debug/
+debug_official_with_validation/
+dataset_structure_check/
+trial_version1/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
