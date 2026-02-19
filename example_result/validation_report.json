@@ -1,0 +1,287 @@
+{
+  "paths": {
+    "BASE": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data",
+    "DATA_DIR": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\data",
+    "FIX_CSV": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\data\\vsgui10k_fixations.csv",
+    "TGT_CSV": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\data\\vsgui10k_targets.csv",
+    "IMG_DIR": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\data\\vsgui10k-images",
+    "SEG_ROOT": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\data\\segmentation"
+  },
+  "filters": {
+    "validity": "FPOGV==1 & BPOGV==1",
+    "min_fix_dur_s": 0.08,
+    "min_fix_per_trial": 3
+  },
+  "join_check_fix_vs_targets": {
+    "fix_unique_pairs": 1717,
+    "tgt_unique_pairs": 3227,
+    "joined_pairs": 1717,
+    "join_rate_vs_fix_pairs": 1.0,
+    "note": "Correct join uses targets.ueyes_img_name (fixations img_name is UEyes namespace)."
+  },
+  "img_type_counts_after_filters": {
+    "2": 107046,
+    "0": 54895,
+    "3": 54790,
+    "1": 31315
+  },
+  "candidates": {
+    "raw(FPOGX/FPOGY)": {
+      "candidate": {
+        "x_col": "FPOGX",
+        "y_col": "FPOGY",
+        "mode": "norm_or_px"
+      },
+      "cross_center_dispersion": {
+        "n_points": 2045,
+        "mean_dist_to_center_px": 45.08991579930523,
+        "p50_dist_to_center_px": 34.290250182026945,
+        "p90_dist_to_center_px": 84.3936274152175,
+        "p99_dist_to_center_px": 251.11696381391678
+      },
+      "search_target_hit_present_only": {
+        "1.0": {
+          "n_trials": 985,
+          "any": 141,
+          "dwell_min2": 76,
+          "any_rate": 0.1431472081218274,
+          "dwell_min2_rate": 0.07715736040609138
+        },
+        "1.5": {
+          "n_trials": 985,
+          "any": 231,
+          "dwell_min2": 132,
+          "any_rate": 0.23451776649746192,
+          "dwell_min2_rate": 0.13401015228426397
+        },
+        "2.0": {
+          "n_trials": 985,
+          "any": 302,
+          "dwell_min2": 201,
+          "any_rate": 0.3065989847715736,
+          "dwell_min2_rate": 0.20406091370558377
+        },
+        "3.0": {
+          "n_trials": 985,
+          "any": 447,
+          "dwell_min2": 331,
+          "any_rate": 0.45380710659898477,
+          "dwell_min2_rate": 0.33604060913705586
+        }
+      },
+      "interpretation_hint": "Better mapping usually has LOWER cross-center distances (img_type=1) and reasonably higher search hit-rate for moderate r (e.g., r=1.5 or r=2). Do NOT use img_type=3(validation) hit against search target."
+    },
+    "debias(FPOGX_debias/FPOGY_debias)": {
+      "candidate": {
+        "x_col": "FPOGX_debias",
+        "y_col": "FPOGY_debias",
+        "mode": "norm_or_px"
+      },
+      "cross_center_dispersion": {
+        "n_points": 2045,
+        "mean_dist_to_center_px": 22.613947284534994,
+        "p50_dist_to_center_px": 14.526630629448983,
+        "p90_dist_to_center_px": 45.703908325018695,
+        "p99_dist_to_center_px": 160.94505537633663
+      },
+      "search_target_hit_present_only": {
+        "1.0": {
+          "n_trials": 985,
+          "any": 146,
+          "dwell_min2": 81,
+          "any_rate": 0.14822335025380712,
+          "dwell_min2_rate": 0.08223350253807106
+        },
+        "1.5": {
+          "n_trials": 985,
+          "any": 223,
+          "dwell_min2": 143,
+          "any_rate": 0.2263959390862944,
+          "dwell_min2_rate": 0.14517766497461929
+        },
+        "2.0": {
+          "n_trials": 985,
+          "any": 303,
+          "dwell_min2": 204,
+          "any_rate": 0.30761421319796955,
+          "dwell_min2_rate": 0.20710659898477157
+        },
+        "3.0": {
+          "n_trials": 985,
+          "any": 453,
+          "dwell_min2": 331,
+          "any_rate": 0.45989847715736043,
+          "dwell_min2_rate": 0.33604060913705586
+        }
+      },
+      "interpretation_hint": "Better mapping usually has LOWER cross-center distances (img_type=1) and reasonably higher search hit-rate for moderate r (e.g., r=1.5 or r=2). Do NOT use img_type=3(validation) hit against search target."
+    },
+    "scaled(FPOGX_scaled/FPOGY_scaled)": {
+      "candidate": {
+        "x_col": "FPOGX_scaled",
+        "y_col": "FPOGY_scaled",
+        "mode": "norm_or_px"
+      },
+      "cross_center_dispersion": {
+        "n_points": 2045,
+        "mean_dist_to_center_px": 39.93277717002016,
+        "p50_dist_to_center_px": 26.393646483042133,
+        "p90_dist_to_center_px": 86.17795535114284,
+        "p99_dist_to_center_px": 241.32108571412277
+      },
+      "search_target_hit_present_only": {
+        "1.0": {
+          "n_trials": 985,
+          "any": 394,
+          "dwell_min2": 160,
+          "any_rate": 0.4,
+          "dwell_min2_rate": 0.16243654822335024
+        },
+        "1.5": {
+          "n_trials": 985,
+          "any": 546,
+          "dwell_min2": 270,
+          "any_rate": 0.5543147208121827,
+          "dwell_min2_rate": 0.27411167512690354
+        },
+        "2.0": {
+          "n_trials": 985,
+          "any": 652,
+          "dwell_min2": 382,
+          "any_rate": 0.6619289340101523,
+          "dwell_min2_rate": 0.38781725888324875
+        },
+        "3.0": {
+          "n_trials": 985,
+          "any": 774,
+          "dwell_min2": 547,
+          "any_rate": 0.7857868020304568,
+          "dwell_min2_rate": 0.5553299492385787
+        }
+      },
+      "interpretation_hint": "Better mapping usually has LOWER cross-center distances (img_type=1) and reasonably higher search hit-rate for moderate r (e.g., r=1.5 or r=2). Do NOT use img_type=3(validation) hit against search target."
+    }
+  },
+  "scoring": {
+    "rule": "score = -mean_cross_center_dist + 200*dwell_rate(r=2.0, present_only)",
+    "scores": {
+      "raw(FPOGX/FPOGY)": -4.277733058188474,
+      "debias(FPOGX_debias/FPOGY_debias)": 18.80737251241932,
+      "scaled(FPOGX_scaled/FPOGY_scaled)": 37.6306746066296
+    },
+    "best_candidate": "scaled(FPOGX_scaled/FPOGY_scaled)"
+  },
+  "debug": {
+    "dir": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug",
+    "note": "Search debug shows trajectory + target bbox; Cross debug shows points + screen center.",
+    "items": {
+      "search_debug": [
+        {
+          "trial_id": "12a222|12be73.png|KoFdSlb7jO|tc|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_00_12be73.png"
+        },
+        {
+          "trial_id": "937c27|00d37d.jpg|2i1oOlMAL6|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_01_00d37d.png"
+        },
+        {
+          "trial_id": "bb40c6|6cb077.png|tYyH59DfFq|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_02_6cb077.png"
+        },
+        {
+          "trial_id": "f8af58|7b6601.png|iqLbC24_jF|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_03_7b6601.png"
+        },
+        {
+          "trial_id": "bb40c6|d60e75.png|1FOyI_uIng|tc|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_04_d60e75.png"
+        },
+        {
+          "trial_id": "a68870|bfd9c4.jpg|Q-xJLC92ap|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_05_bfd9c4.png"
+        },
+        {
+          "trial_id": "2d10dd|1fdbf2.png|Z4SDnE4rbP|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_06_1fdbf2.png"
+        },
+        {
+          "trial_id": "d485f4|b889dd.png|LaTVrVWGjk|t|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_08_b889dd.png"
+        },
+        {
+          "trial_id": "05c574|8ef737.png|hQUAH42-79|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_09_8ef737.png"
+        },
+        {
+          "trial_id": "12a222|2511d9.png|a_ylMPbZJs|i|abs1",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_10_2511d9.png"
+        },
+        {
+          "trial_id": "a03819|66935b.jpg|mtU0o4Z4Ax|t|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_11_66935b.png"
+        },
+        {
+          "trial_id": "4eae4d|446969.png|2eT48nwcUt|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_12_446969.png"
+        },
+        {
+          "trial_id": "7f761a|3a8a8b.png|Xi7RYlsrBE|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_13_3a8a8b.png"
+        },
+        {
+          "trial_id": "201918|c23e50.png|W_OQo11bcj|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_14_c23e50.png"
+        },
+        {
+          "trial_id": "a021c0|0e1dea.png|L8ZGEDib-t|tc|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_15_0e1dea.png"
+        },
+        {
+          "trial_id": "b65a82|3ec21e.png|vw9PiThd5L|t|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_17_3ec21e.png"
+        },
+        {
+          "trial_id": "a68870|60caa9.png|eFAyotDkYZ|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_18_60caa9.png"
+        },
+        {
+          "trial_id": "7f761a|be0882.png|Mr8G7eTpYV|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_search_19_be0882.png"
+        }
+      ],
+      "cross_debug": [
+        {
+          "trial_id": "152086|b11c7a.png|jR2TGHohtn|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_cross_00_b11c7a.png"
+        },
+        {
+          "trial_id": "aa5b0c|4d3cc1.png|wij_pDXgXJ|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_cross_01_4d3cc1.png"
+        },
+        {
+          "trial_id": "c20c91|d924c7.png|C1a9Vtt3-O|tc|abs1",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_cross_03_d924c7.png"
+        },
+        {
+          "trial_id": "05c574|6294a2.png|zASbRQXr2V|i|abs1",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_cross_09_6294a2.png"
+        },
+        {
+          "trial_id": "d325c0|92b95d.png|BIBLoAY96C|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_cross_10_92b95d.png"
+        },
+        {
+          "trial_id": "f177ff|906624.jpg|ACN6UOQ6bi|i|abs0",
+          "out_path": "C:\\Users\\zhang\\GUI\\VSGUI10K\\data\\validation_debug\\debug_cross_11_906624.png"
+        }
+      ]
+    }
+  },
+  "important_notes": [
+    "Do NOT validate mapping by comparing img_type=3(validation) gaze against SEARCH target bbox. They are different tasks.",
+    "The strongest sanity check is img_type=1(fixation cross): gaze should cluster near screen center after correct mapping.",
+    "Search-phase target hit-rate should be computed on img_type=2 and preferably present-only (absent==False).",
+    "If r=3 always 'wins', it may just reflect larger boxes increasing chance hits; prefer comparing moderate r (1.5/2.0).",
+    "Fixations img_name is UEyes namespace; targets join must use ueyes_img_name."
+  ]
+}

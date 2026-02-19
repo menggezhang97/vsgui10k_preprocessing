@@ -2,11 +2,10 @@
 data/
 __MACOSX/
 
-# Generated outputs
-*.jsonl.gz
-*.json
+# Large generated outputs
+trials_official_with_validation.jsonl.gz
 validation_debug/
-debug_official_with_validation/
+* debug_official_with_validation/
 dataset_structure_check/
 trial_version1/
 
