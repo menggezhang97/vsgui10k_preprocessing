@@ -12,9 +12,9 @@ Official-style preprocessing pipeline for VSGUI10K visual search modeling.
 - Validation-based sanity checks
 
 ## How to run
+Download VSGUI10K dataset via  https://osf.io/hmg9b/. Files are read from the data folder. 
 
 Place dataset inside:
-
 data/
     vsgui10k_fixations.csv
     vsgui10k_targets.csv
