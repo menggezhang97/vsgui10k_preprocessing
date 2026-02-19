@@ -23,10 +23,11 @@ data/
 
 Then run:
 
-python preprocessing/preprocess_official_with_validation.py
-python preprocessing/qa_vsgui10k_validation.py
+python ./preprocess_official_with_validation.py
+python ./qa_vsgui10k_validation.py
 
 ## Outputs
 - trials_official_with_validation.jsonl.gz
 - preprocess_validation_stats.json
 - validation_report.json
+- debug_official_with_validation/image_examples
