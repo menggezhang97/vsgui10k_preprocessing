@@ -1,0 +1,29 @@
+{
+  "n_samples": 10168,
+  "normalized_distance": {
+    "mean": 0.2281237979427475,
+    "median": 0.19024334847927094
+  },
+  "pixel_distance_seg_space": {
+    "mean": 154.03859456075776,
+    "median": 127.74002838134766
+  },
+  "target_hit_rate_present_only": {
+    "1.0": {
+      "n_present_samples": 7614,
+      "hit_rate": 0.03138954557394274
+    },
+    "1.5": {
+      "n_present_samples": 7614,
+      "hit_rate": 0.058707643814026794
+    },
+    "2.0": {
+      "n_present_samples": 7614,
+      "hit_rate": 0.08497504596795377
+    },
+    "3.0": {
+      "n_present_samples": 7614,
+      "hit_rate": 0.13370107696348832
+    }
+  }
+}

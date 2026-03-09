@@ -1,0 +1,5 @@
+{
+  "best_val_loss": 0.03910050541721284,
+  "test_loss": 0.03579359929263592,
+  "test_mean_euclidean_distance": 0.21822052055597305
+}

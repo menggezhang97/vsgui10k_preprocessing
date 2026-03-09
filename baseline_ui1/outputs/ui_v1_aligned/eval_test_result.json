@@ -1,0 +1,57 @@
+{
+  "model_name": "simple_ui_sequence_transformer",
+  "task_type": "next_ui_token_classification",
+  "representation": "history_only_fixation_hit_ui_tokens",
+  "n_samples": 2000,
+  "loss": 9.166485282897948,
+  "top1": 0.094,
+  "top5": 0.1205,
+  "ui_vocab_size": 10737,
+  "cue_vocab_size": 4,
+  "history_len": 8,
+  "sample_stats": {
+    "saved_training_stats": {
+      "train_stats_full": {
+        "total_candidates": 75996,
+        "kept": 66623,
+        "skipped_target_none": 9373,
+        "skipped_target_unknown": 0
+      },
+      "val_stats_full": {
+        "total_candidates": 9765,
+        "kept": 7800,
+        "skipped_target_none": 1262,
+        "skipped_target_unknown": 703
+      },
+      "test_stats_full": {
+        "total_candidates": 10168,
+        "kept": 8238,
+        "skipped_target_none": 1254,
+        "skipped_target_unknown": 676
+      },
+      "train_samples_full": 66623,
+      "val_samples_full": 7800,
+      "test_samples_full": 8238,
+      "train_samples_used": 12000,
+      "val_samples_used": 2000,
+      "test_samples_used": 2000,
+      "max_train_samples": 12000,
+      "max_val_samples": 2000,
+      "max_test_samples": 2000
+    },
+    "current_test_stats_full": {
+      "total_candidates": 10168,
+      "kept": 8238,
+      "skipped_target_none": 1254,
+      "skipped_target_unknown": 676
+    },
+    "current_test_samples_full": 8238,
+    "current_test_samples_used": 2000
+  },
+  "notes": {
+    "ui_token_definition": "img_name::ui_class::ui_idx",
+    "target_space": "UI token classification space, not fixation (x,y) regression space",
+    "mapping_quality_note": "Current UI tokenization depends on coarse auto-segmentation / auto-mapping; UI element boundaries are known to be rough and not finely aligned.",
+    "model_scope_note": "This is a history-only UI-sequence baseline, not the final structured UI transformer with full UI memory and cross-attention."
+  }
+}

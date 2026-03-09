@@ -5,13 +5,27 @@ __MACOSX/
 # Large generated outputs
 trials_official_with_validation.jsonl.gz
 validation_debug/
-* debug_official_with_validation/
+debug_official_with_validation/
 dataset_structure_check/
 trial_version1/
+
+# Generated example debug images
+example_result/debug_official_with_validation/
+
+# Segmentation visualization samples
+seg_viz_samples_auto/
+
+# Sanity check files
+sanity_check_vsgui.py
+sanity_report.json
+sanity_report_old.json
+sanity_validation_stats.json
+preprocess_validation_stats.json
 
 # Python
 __pycache__/
 *.pyc
+.venv/
 
 # OS
 .DS_Store

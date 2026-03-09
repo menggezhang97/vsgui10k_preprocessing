@@ -1,0 +1,20 @@
+{
+  "trials_path": "trials_official_with_validation.jsonl.gz",
+  "output_dir": "baseline_ui1/outputs/ui_v1_aligned",
+  "split_path": "baseline_vit/outputs/patch_transformer_pilot/split.json",
+  "history_len": 8,
+  "batch_size": 32,
+  "num_workers": 0,
+  "epochs": 2,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "dropout": 0.1,
+  "seed": 42,
+  "d_model": 192,
+  "nhead": 4,
+  "num_layers": 2,
+  "ff_dim": 384,
+  "max_train_samples": 12000,
+  "max_val_samples": 2000,
+  "max_test_samples": 2000
+}

@@ -1,0 +1,29 @@
+{
+  "train_stats_full": {
+    "total_candidates": 75996,
+    "kept": 66623,
+    "skipped_target_none": 9373,
+    "skipped_target_unknown": 0
+  },
+  "val_stats_full": {
+    "total_candidates": 9765,
+    "kept": 7800,
+    "skipped_target_none": 1262,
+    "skipped_target_unknown": 703
+  },
+  "test_stats_full": {
+    "total_candidates": 10168,
+    "kept": 8238,
+    "skipped_target_none": 1254,
+    "skipped_target_unknown": 676
+  },
+  "train_samples_full": 66623,
+  "val_samples_full": 7800,
+  "test_samples_full": 8238,
+  "train_samples_used": 66623,
+  "val_samples_used": 7800,
+  "test_samples_used": 8238,
+  "max_train_samples": null,
+  "max_val_samples": null,
+  "max_test_samples": null
+}

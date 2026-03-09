@@ -1,0 +1,9 @@
+{
+  "best_val_loss": 8.456500679016113,
+  "test_loss": 8.737019879341126,
+  "test_top1": 0.1665,
+  "test_top5": 0.224,
+  "train_samples_used": 12000,
+  "val_samples_used": 2000,
+  "test_samples_used": 2000
+}

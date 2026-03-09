@@ -1,0 +1,23 @@
+{
+  "trials_path": "trials_official_with_validation.jsonl.gz",
+  "image_dir": "data/vsgui10k-images",
+  "output_dir": "baseline/outputs/patch_v1",
+
+  "image_size": 224,
+  "history_len": 8,
+
+  "backbone_name": "resnet18",
+  "pretrained": true,
+
+  "batch_size": 16,
+  "num_workers": 0,
+  "epochs": 2,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "dropout": 0.1,
+  "seed": 42,
+
+  "train_ratio": 0.8,
+  "val_ratio": 0.1,
+  "test_ratio": 0.1
+}
