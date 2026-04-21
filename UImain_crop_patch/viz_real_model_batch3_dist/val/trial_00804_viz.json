@@ -1,0 +1,86 @@
+{
+  "split": "val",
+  "trial_index": 804,
+  "trial_id": "30b73f|9fb0eb.png|vH-doT8L5C|t|abs0",
+  "image_path": "data\\vsgui10k-images\\9fb0eb.png",
+  "seg_json_path": "data\\segmentation\\block 22\\9fb0eb.json",
+  "cue_text": "t",
+  "model_variant": "ui_crop_decoder",
+  "visual_mode": "ui_crop_matched",
+  "ui_memory_inputs": [
+    "geom",
+    "type",
+    "crop"
+  ],
+  "crop_size": 32,
+  "checkpoint": "UImain_crop_patch/outputs/full_0.25a_freeze/best_dist.pt",
+  "checkpoint_epoch": 20,
+  "best_val_loss": 0.036187448817235165,
+  "best_val_dist": 0.21596516159578158,
+  "teacher_forced_definition": {
+    "history_source": "ground_truth",
+    "prediction_target": "next_fixation_xy",
+    "history_contains_duration": true
+  },
+  "rollout_definition": {
+    "history_source": "model_predictions",
+    "prediction_target": "next_fixation_xy",
+    "predicted_duration_fallback": 0.0
+  },
+  "teacher_forced_gt": [
+    [
+      0.4872350758853289,
+      0.5150045248868776
+    ],
+    [
+      0.4808080944350759,
+      0.5107149321266967
+    ],
+    [
+      0.6025160202360876,
+      0.557737556561086
+    ]
+  ],
+  "teacher_forced_pred": [
+    [
+      0.4872350758853289,
+      0.5150045248868776
+    ],
+    [
+      0.7617229223251343,
+      0.6580245494842529
+    ],
+    [
+      0.7475960850715637,
+      0.6898646354675293
+    ]
+  ],
+  "rollout_gt": [
+    [
+      0.4872350758853289,
+      0.5150045248868776
+    ],
+    [
+      0.4808080944350759,
+      0.5107149321266967
+    ],
+    [
+      0.6025160202360876,
+      0.557737556561086
+    ]
+  ],
+  "rollout_pred": [
+    [
+      0.4872350758853289,
+      0.5150045248868776
+    ],
+    [
+      0.7617229223251343,
+      0.6580245494842529
+    ],
+    [
+      0.7829065918922424,
+      0.6589001417160034
+    ]
+  ]
+}

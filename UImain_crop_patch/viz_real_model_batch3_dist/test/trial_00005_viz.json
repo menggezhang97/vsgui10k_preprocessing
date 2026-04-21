@@ -1,0 +1,118 @@
+{
+  "split": "test",
+  "trial_index": 5,
+  "trial_id": "104fea|cdcaf8.jpg|sqqtNS6h11|i|abs0",
+  "image_path": "data\\vsgui10k-images\\cdcaf8.jpg",
+  "seg_json_path": "data\\segmentation\\block 49\\cdcaf8.json",
+  "cue_text": "i",
+  "model_variant": "ui_crop_decoder",
+  "visual_mode": "ui_crop_matched",
+  "ui_memory_inputs": [
+    "geom",
+    "type",
+    "crop"
+  ],
+  "crop_size": 32,
+  "checkpoint": "UImain_crop_patch/outputs/full_0.25a_freeze/best_dist.pt",
+  "checkpoint_epoch": 20,
+  "best_val_loss": 0.036187448817235165,
+  "best_val_dist": 0.21596516159578158,
+  "teacher_forced_definition": {
+    "history_source": "ground_truth",
+    "prediction_target": "next_fixation_xy",
+    "history_contains_duration": true
+  },
+  "rollout_definition": {
+    "history_source": "model_predictions",
+    "prediction_target": "next_fixation_xy",
+    "predicted_duration_fallback": 0.0
+  },
+  "teacher_forced_gt": [
+    [
+      0.500963691560413,
+      0.5327267759562841
+    ],
+    [
+      0.4261221615057682,
+      0.3970546448087432
+    ],
+    [
+      0.3028318154219794,
+      0.0765792349726776
+    ],
+    [
+      0.3886780813600485,
+      0.9185628415300546
+    ],
+    [
+      0.4771356405585912,
+      0.8961857923497268
+    ]
+  ],
+  "teacher_forced_pred": [
+    [
+      0.500963691560413,
+      0.5327267759562841
+    ],
+    [
+      0.5154898762702942,
+      0.5838391184806824
+    ],
+    [
+      0.5085155367851257,
+      0.5585477352142334
+    ],
+    [
+      0.5053863525390625,
+      0.5629633069038391
+    ],
+    [
+      0.51242595911026,
+      0.5888466238975525
+    ]
+  ],
+  "rollout_gt": [
+    [
+      0.500963691560413,
+      0.5327267759562841
+    ],
+    [
+      0.4261221615057682,
+      0.3970546448087432
+    ],
+    [
+      0.3028318154219794,
+      0.0765792349726776
+    ],
+    [
+      0.3886780813600485,
+      0.9185628415300546
+    ],
+    [
+      0.4771356405585912,
+      0.8961857923497268
+    ]
+  ],
+  "rollout_pred": [
+    [
+      0.500963691560413,
+      0.5327267759562841
+    ],
+    [
+      0.5154898762702942,
+      0.5838391184806824
+    ],
+    [
+      0.5058062076568604,
+      0.6429532766342163
+    ],
+    [
+      0.5074476003646851,
+      0.6532168984413147
+    ],
+    [
+      0.5185130834579468,
+      0.6512261629104614
+    ]
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "seed": 42,
+  "checkpoint": "UImain_patch_hybrid/outputs/full_0.5a_freeze/best_loss.pt",
+  "checkpoint_epoch": 15,
+  "best_val_loss": 0.03570653181246501,
+  "best_val_dist": 0.21892541180161165,
+  "num_samples_per_split": 3,
+  "picked_indices": {
+    "train": [
+      7424,
+      1506,
+      6974
+    ],
+    "val": [
+      769,
+      807,
+      804
+    ],
+    "test": [
+      789,
+      291,
+      5
+    ]
+  },
+  "records": [
+    {
+      "split": "train",
+      "trial_index": 7424,
+      "trial_id": "bb1eec|57f74a.png|Gx7dXI2nJL|i|abs0",
+      "cue_text": "i",
+      "teacher_forced_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\train\\trial_07424_teacher_forced.png",
+      "rollout_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\train\\trial_07424_rollout.png",
+      "json_path": "UImain_patch_hybrid/viz_real_model_batch3_loss\\train\\trial_07424_viz.json"
+    },
+    {
+      "split": "train",
+      "trial_index": 1506,
+      "trial_id": "937c27|82361c.png|NgO6JR8Obn|t|abs0",
+      "cue_text": "t",
+      "teacher_forced_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\train\\trial_01506_teacher_forced.png",
+      "rollout_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\train\\trial_01506_rollout.png",
+      "json_path": "UImain_patch_hybrid/viz_real_model_batch3_loss\\train\\trial_01506_viz.json"
+    },
+    {
+      "split": "train",
+      "trial_index": 6974,
+      "trial_id": "3d437e|b66ff3.png|kMNAO__-Te|i|abs0",
+      "cue_text": "i",
+      "teacher_forced_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\train\\trial_06974_teacher_forced.png",
+      "rollout_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\train\\trial_06974_rollout.png",
+      "json_path": "UImain_patch_hybrid/viz_real_model_batch3_loss\\train\\trial_06974_viz.json"
+    },
+    {
+      "split": "val",
+      "trial_index": 769,
+      "trial_id": "2d10dd|72cfd2.png|K8L9wF9m7p|i|abs1",
+      "cue_text": "i",
+      "teacher_forced_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\val\\trial_00769_teacher_forced.png",
+      "rollout_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\val\\trial_00769_rollout.png",
+      "json_path": "UImain_patch_hybrid/viz_real_model_batch3_loss\\val\\trial_00769_viz.json"
+    },
+    {
+      "split": "val",
+      "trial_index": 807,
+      "trial_id": "b022c1|e9b913.png|Y_x_2cJmhW|i|abs0",
+      "cue_text": "i",
+      "teacher_forced_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\val\\trial_00807_teacher_forced.png",
+      "rollout_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\val\\trial_00807_rollout.png",
+      "json_path": "UImain_patch_hybrid/viz_real_model_batch3_loss\\val\\trial_00807_viz.json"
+    },
+    {
+      "split": "val",
+      "trial_index": 804,
+      "trial_id": "30b73f|9fb0eb.png|vH-doT8L5C|t|abs0",
+      "cue_text": "t",
+      "teacher_forced_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\val\\trial_00804_teacher_forced.png",
+      "rollout_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\val\\trial_00804_rollout.png",
+      "json_path": "UImain_patch_hybrid/viz_real_model_batch3_loss\\val\\trial_00804_viz.json"
+    },
+    {
+      "split": "test",
+      "trial_index": 789,
+      "trial_id": "7a2012|e3d6fa.png|LYse3YZVwr|i|abs1",
+      "cue_text": "i",
+      "teacher_forced_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\test\\trial_00789_teacher_forced.png",
+      "rollout_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\test\\trial_00789_rollout.png",
+      "json_path": "UImain_patch_hybrid/viz_real_model_batch3_loss\\test\\trial_00789_viz.json"
+    },
+    {
+      "split": "test",
+      "trial_index": 291,
+      "trial_id": "7b5af1|af49df.jpg|gHSWOSN0X1|t|abs0",
+      "cue_text": "t",
+      "teacher_forced_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\test\\trial_00291_teacher_forced.png",
+      "rollout_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\test\\trial_00291_rollout.png",
+      "json_path": "UImain_patch_hybrid/viz_real_model_batch3_loss\\test\\trial_00291_viz.json"
+    },
+    {
+      "split": "test",
+      "trial_index": 5,
+      "trial_id": "104fea|cdcaf8.jpg|sqqtNS6h11|i|abs0",
+      "cue_text": "i",
+      "teacher_forced_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\test\\trial_00005_teacher_forced.png",
+      "rollout_png": "UImain_patch_hybrid/viz_real_model_batch3_loss\\test\\trial_00005_rollout.png",
+      "json_path": "UImain_patch_hybrid/viz_real_model_batch3_loss\\test\\trial_00005_viz.json"
+    }
+  ]
+}

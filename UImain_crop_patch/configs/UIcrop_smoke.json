@@ -1,0 +1,40 @@
+{
+  "seed": 42,
+  "trials_path": "trials_official_with_validation.jsonl.gz",
+  "image_dir": "data/vsgui10k-images",
+  "seg_root": "data/segmentation",
+  "output_dir": "UImain_crop_patch/outputs/smoke_0.25a_freeze",
+
+  "train_ratio": 0.8,
+  "val_ratio": 0.1,
+  "test_ratio": 0.1,
+
+  "history_len": 8,
+  "image_size": 224,
+  "max_ui_tokens": 64,
+  "ui_geom_dim": 4,
+  "drop_full_screen_root": true,
+  "crop_size": 32,
+
+  "batch_size": 8,
+  "num_workers": 0,
+  "epochs": 30,
+
+  "vit_name": "vit_tiny_patch16_224",
+  "pretrained": true,
+
+  "d_model": 192,
+  "nhead": 4,
+  "num_layers": 2,
+  "ff_dim": 384,
+  "dropout": 0.1,
+
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+
+  "max_train_samples": 32,
+  "max_val_samples": 16,
+  "max_test_samples": 16,
+
+  "debug_print": true
+}
