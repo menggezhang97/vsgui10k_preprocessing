@@ -39,4 +39,5 @@ Use the commit line like below to tun the model.
 python UImain_patch_hybrid/[name of the train.py] --config [the diectory and name of the configs u want to use] --alpha [amount u want to run] --freeze_patch
 
 Use this to run the visualization.
+
 python UImain_patch_hybrid/visualize_patch_hybrid_scanpath_real.py --checkpoint UImain_patch_hybrid/outputs/[the .ptfile that u want to set as checkpoint] --trials_path trials_official_with_validation.jsonl.gz --image_dir data/vsgui10k-images --seg_root data/segmentation --output_dir [directory u set]
